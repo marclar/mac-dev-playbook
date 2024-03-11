@@ -61,22 +61,29 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
-
+  
 homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-#  - chromedriver
+ # - chromedriver
   - docker
-#  - dropbox
+ # - dropbox
   - firefox
   - google-chrome
   - handbrake
   - licecap
-#  - sequel-ace
+ # - sequel-ace
   - slack
-#  - sublime-text
-#  - transmit
+ # - sublime-text
+ # - transmit
+  - webstorm
+  - raycast
+  - bitwarden
+  - busycal
+  - spotify
+  - logseq
+
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
